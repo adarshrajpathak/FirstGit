@@ -1,0 +1,26 @@
+//to install git
+$ git
+-not found-
+$ sudo apt install git
+
+//pushing first git
+echo "# FirstGit" >> README.md
+git init
+git status
+git add README.md *or* git add . (all)
+git commit -m "first commit"
+(for the first time authorisation)
+/* git config --global user.email "adarsh.raj.pathak.1@gmail.com"
+   git config user.name adarshrajpathak */
+git branch -M main
+git remote add origin https://github.com/adarshrajpathak/FirstGit.git
+git push -u origin main
+username:adarshrajpathak
+password:<token>
+
+//commands
+git branch (list of branch and our pointer)
+git checkout master/demo (switching the branch)
+git log
+git diff
+
